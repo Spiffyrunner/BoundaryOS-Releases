@@ -1,0 +1,13 @@
+# Never commit release signing keys or confidential publisher material.
+*.key
+*.key.pem
+*private*.pem
+*.p12
+*.pfx
+.env
+secrets/
+private/
+*.token
+*.pat
+# Test-only output directories should be reviewed and signed before public commit.
+staging/
